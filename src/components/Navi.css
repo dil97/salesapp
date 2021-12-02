@@ -1,0 +1,15 @@
+.nav {
+  color: blue;
+  background-color: brown;
+  font-size: medium;
+  display: flex;
+}
+.nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    text-indent:40px;
+}
+
