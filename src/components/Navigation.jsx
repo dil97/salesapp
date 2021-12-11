@@ -1,25 +1,18 @@
 import "./Navi.css";
+import { Link } from "react-router-dom";
 export const Navigation = () => {
     return(
    
         <tr className="nav">
-            {/* <button  varriant ="danger">Click here</button> */}
-            <td>
-                <link href="/Counter" tlinkrget="_bllinknk" >Calculator</link>
-            </td>
-            <td>
-                <a href="/Product$list" target="_blank">product</a>
-            </td>           
-            <td>
-                <a href="/" target="_blank">Cards
-            </td>
-            <form >
-               <h3> first Name</h3>
-               <input type="text" placeholder="name" />
-            
-            </form>
-
+       
+        
+                <Link href="/Counter" tlinkrget="_bllinknk" >Calculator</Link>       
+                <Link href="/Product$list" target="_blank">product</Link>
+        
+                <Link href="/" target="_blank">Cards</Link>
+                <Link href="/Time" target="_blank">timeOut</Link>
+      
         </tr>
     );
-}
+};
 export default Navigation;

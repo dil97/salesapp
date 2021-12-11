@@ -9,6 +9,8 @@ import { Cards } from "./components/Cards";
 import Classcomp from"./components/classcomp/Classcomp"
 
 import { Product$list } from "./components/classcomp/Product$list";
+import Timeout from "./Services/Timeout"
+import Watch from "./Services/Watch";
 
 
 // import "App.css";
@@ -19,9 +21,13 @@ const App = () => {
     <BrowserRouter>
     <Navigation/>
     <Routes>
+      
+      <Route path="/watch"element={<Watch/>}/>
       <Route path="/"element={<Cards/>}/>
       <Route path="/Prodact"element ={<Product$list/>}/>
       <Route path="/Calculater"element={<Counter/>}/>
+      <Route path="/Time"element={<Timeout/>}/>
+      
         
     </Routes>
    
