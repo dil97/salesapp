@@ -1,5 +1,6 @@
 import "./Navi.css";
 import { Link } from "react-router-dom";
+
 export const Navigation = () => {
     return(
    
@@ -10,7 +11,7 @@ export const Navigation = () => {
                 <Link href="/Product$list" target="_blank">product</Link>
         
                 <Link href="/" target="_blank">Cards</Link>
-                <Link href="/Time" target="_blank">timeOut</Link>
+               
       
         </tr>
     );
